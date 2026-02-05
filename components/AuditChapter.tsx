@@ -166,10 +166,15 @@ export const AuditChapter: React.FC = () => {
              </div>
              
              <div className="relative z-10 pt-2">
-                <button className="group bg-white px-8 md:px-16 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tighter hover:scale-105 active:scale-95 transition-all shadow-xl flex items-center gap-3 md:gap-4 mx-auto !text-[#007AFF]">
-                  ЗАПИСАТЬСЯ НА АУДИТ
-                  <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform md:w-6 md:h-6" />
-                </button>
+                <a 
+  href="https://forms.gle/w6SaNnL8z8bLry8u7" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="group bg-white px-8 md:px-16 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tighter hover:scale-105 active:scale-95 transition-all shadow-xl flex items-center justify-center gap-3 md:gap-4 mx-auto !text-[#007AFF] no-underline"
+>
+  ЗАПИСАТЬСЯ НА АУДИТ
+  <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform md:w-6 md:h-6" />
+</a>
                 <p className="mt-4 text-[10px] font-black uppercase tracking-[0.4em] text-white/60">
                   Заполнение анкеты займёт 5 минут
                 </p>
@@ -181,9 +186,15 @@ export const AuditChapter: React.FC = () => {
               Ты уже сделал сложную часть — вышел на доход. Осталось пробить потолок. Вопрос лишь в том, сколько времени ты потратишь на эксперименты.
             </p>
             
-            <button className="text-gray-900 font-black text-base md:text-xl underline underline-offset-8 hover:text-apple-blue transition-colors flex items-center gap-2 mx-auto">
-              ЗАПОЛНИТЬ АНКЕТУ <ChevronRight size={18} />
-            </button>
+            <a 
+  href="https://forms.gle/w6SaNnL8z8bLry8u7" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="text-gray-900 font-black text-base md:text-xl underline underline-offset-8 hover:text-apple-blue transition-colors flex items-center justify-center gap-2 mx-auto w-fit no-underline"
+>
+  <span className="underline">ЗАПОЛНИТЬ АНКЕТУ</span>
+  <ChevronRight size={18} />
+</a>
           </div>
         </section>
 
